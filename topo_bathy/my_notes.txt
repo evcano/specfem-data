@@ -1,0 +1,4 @@
+1. install git lfs https://docs.github.com/en/github/managing-large-files/versioning-large-files/installing-git-large-file-storage
+2. on .../specfem-data/ run: git lfs pull --include "topo_bathy/<file_name>" to download the file
+3. uncompress the file
+4. use ExtracTopo.py to obtain topography file for specfem
